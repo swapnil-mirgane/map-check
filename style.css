@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #map {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #swapnil {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 3;
+  }
+
+  #Top_bar {
+    width: 100%;
+    height: 90px;
+    /* background-color: #34434A; */
+    background: rgb(39, 213, 65);
+    background: linear-gradient(28deg, rgba(39, 213, 65, 1) 18%, rgba(0, 207, 255, 1) 100%);
+
+    display: flex;
+  }
+
+  #Top_bar1 {
+    margin: 18px;
+    width: 50%;
+
+  }
+
+  #Top_bar1 input {
+    margin: 3px;
+    margin: 3px;
+    width: 35%;
+    height: 40px;
+
+
+  }
+
+  #Top_bar1 button {
+    margin: 3px;
+    width: 20%;
+    height: 44px;
+  }
+
+  #Top_bar2 {
+    margin: 15px;
+    width: 50%;
+
+  }
+
+  #Top_bar2 input {
+    margin: 3px;
+    margin: 3px;
+    width: 35%;
+    height: 40px;
+
+  }
+
+  #Top_bar2 button {
+    margin: 3px;
+    width: 20%;
+    height: 44px;
+  }
+
+  #Top_bar1 input:hover {
+
+    border: 2px solid black;
+  }
+
+  #Top_bar2 input:hover {
+
+    border: 2px solid black;
+  }
+
+  #Top_bar1 button:hover {
+    background-color: #1C73C9;
+    color: white;
+    box-shadow: 2px 1px 2px rgb(72, 70, 70) inset;
+  }
+
+  #Top_bar2 button:hover {
+    background-color: #1C73C9;
+    color: white;
+    box-shadow: 2px 1px 2px rgb(72, 70, 70) inset;
+  }
+
+  #sp1 {
+    z-index: 2;
+    position: fixed;
+    top: 55px;
+    right: 20px;
+    margin: 10px;
+   
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #Top_bar1 {
+      margin: 1px;
+      width: 50%;
+  
+    }
+   
+    #Top_bar{
+      display: flex;
+      width: 100%;
+    height: 120px;
+      display: flex;
+     
+    }
+
+    
+  
+    #Top_bar1 input { 
+      width: 90%;
+     
+    }
+  
+    #Top_bar1 button {
+      width: 43%;
+      height: 40px;
+      margin: 4px;
+    }
+    #phoneBTN{
+     padding: 0px;
+     width: 45%
+    }
+  
+    #Top_bar2 {
+ 
+      margin: 1px;
+      width: 50%;
+  
+    }
+  
+    #Top_bar2 input {
+     
+      width: 90%;
+  
+    }
+  
+    #Top_bar2 button {
+      width: 40%;
+      height: 40px;
+    }
+    #sp1 {
+      z-index: 2;
+      position: fixed;
+      top: 80px;
+      right: 0px;
+      margin: 0px;
+    }
+    #swapnil {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 10px;
+      z-index: 2;
+    }
+    
+  }
